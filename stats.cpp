@@ -1,4 +1,6 @@
 #include "stats.h"
+#include <numeric>
+#include <limits>
 
 Stats Statistics::ComputeStatistics(const std::vector<float>& readings ) {
 
