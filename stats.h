@@ -9,5 +9,5 @@ namespace Statistics {
     };
     // define the Stats structure here. See the tests to infer its properties
     
-    Stats ComputeStatistics(const std::vector<float>& readings );
+    Statistics::Stats Statistics::ComputeStatistics(const std::vector<float>& readings );
 }
